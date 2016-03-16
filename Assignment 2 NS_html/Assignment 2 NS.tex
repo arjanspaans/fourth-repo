@@ -1,0 +1,114 @@
+\documentclass[12pt]{article}
+\begin{document}
+\title{Assignment 2}
+\author{Arjan Spaans, 181637}	
+	
+\maketitle
+	
+	
+\noindent \textbf{2) Consider the prospects A = (1, €3000), B = (0.8, €4000; 0.2, €0), C = (0.25, €3000 0.75, 0), and D = (0.2, €4000; 0.8, 0). It has been found (e.g., Starmer, 2000, Journal of Economic Literature) that most people prefer prospect A over prospect B and prospect D over prospect C. }
+
+\vspace{5mm} 	
+	
+\noindent \textbf{a) Show that this choice pattern violates Expected Utility theory.}
+	
+\vspace{5mm} 	
+	
+\noindent The Expected Utility theory proclaims that a person would select the prospect that has the highest expected utility. From the below calculations this means that a person who choices according to the expected utility theory would prefer B>A>D>C. Since this is not the case in this example it is a violation of the Expected Utility Theory.
+
+\vspace{5mm} 
+
+\noindent \textit{Calculation of Expected Utility of:}
+
+\vspace{5mm} 
+
+\textit{ EU(A)}: $1\times3000 = 3000$
+
+\textit{ EU(B)}: $0.8\times4000 + 0.2\times0 = 3200$
+
+\textit{ EU(C)}: $0.25\times3000 + 0.75\times0 = 750$
+
+\textit{ EU(D)}: $0.2\times4000 + 0.8\times0 = 800$
+
+\vspace{5mm}
+
+\noindent \textbf{b) Show that Disappointment theory as presented and parameterized on the slides (i.e., with u(x) = x and θ = 0.0002) can accommodate the observed choice pattern.}
+
+\vspace {5mm}
+
+\noindent Since under Disappointment theory:
+
+\vspace{5mm}
+
+\noindent \textit{Prospect A:}
+
+EU=EV=3000, \textit{D(A)}=9000
+
+\vspace{5mm}
+
+\noindent \textit{Prospect B:}
+
+EU=EV = 3200, 
+\[\ \ \ \ \ D\left(B\right)=0.8\left[4000+0.0002{\left(4000-3200\right)}^2\right]+0.2\left[0-0.0002{\left(0-3200\right)}^2\right]=2892.8\] 
+\textit{Prospect C:}
+
+\textit{ }EU=EV = 750
+\[\ \ \ \ \ D\left(C\right)=0.25\left[3000+0.0002{\left(3000-750\right)}^2\right]+0.75\left[0-0.0002{\left(0-750\right)}^2\right]=1087.5\]
+\textit{Prospect D:}
+
+\textit{ }EU=EV = 800
+\[\ \ \ \ \ D\left(D\right)=0.2\left[4000+0.0002{\left(4000-800\right)}^2\right]+0.8\left[0-0.0002{\left(0-800\right)}^2\right]=1312\]
+
+\vspace{5mm}
+
+\noindent The individual now prefers: $A>B>D>C$ what was in line with what most people prefer when facing these prospects. By this, disappointment theory can accommodate the observed choice pattern. 
+
+\vspace{5mm}
+
+\noindent \textbf{c) Show that Cumulative Prospect Theory can accommodate the choice pattern.}
+
+\vspace{5mm}
+
+\noindent \textit{Prospect A:}
+
+$u{}^{+}$(3000) = 3000${}^{0.88}$ = 1147.80
+
+$\pi$ $\cdot u(x) = 1 \cdot 1147.8$
+
+\textit{cpt(A)} = 1147.8
+
+\vspace{5mm}
+
+\noindent \textit{Prospect B: (0.8, 4000; 0.2, 0)}
+
+$u{}^{+}$(4000) = 4000${}^{.88}$ = 1478.5
+\[w(\pi)^+\left(0.8\right)=\frac{{0.8}^{0.61}}{{{[0.8}^{0.61}+{(1-0.8)}^{0.61}]}^{{1}/{0.61}}}=0.61\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \] 
+
+$w(\pi)$ $\cdot u(x) = 0.61 \cdot 1478.5=901.9$
+
+\textit{cpt(B)} = 901.9
+
+\noindent \textit{Prospect C: (0.25, 3000; 0.75, 0)}
+
+$u^{+}$(3000) = 3000${}^{.88}$ = 1147.80
+\[w(\pi)^+\left(0.25\right)=\frac{{0.25}^{0.61}}{{{[0.25}^{0.61}+{(1-0.25)}^{0.61}]}^{{1}/{0.61}}}=0.29\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \]
+
+$w(\pi)$ $\cdot u(x) = 0.29 \cdot 1147.8=332.86$
+
+\textit{ cpt(C)} = 332.86
+
+\vspace{5mm}
+
+\noindent \textit{Prospect D: (0.2, 4000; 0.8, 0)}
+
+$u^{+}$(4000) = 4000${}^{.88}$ = 1478.5
+\[w^+\left(0.8\right)=\frac{{0.2}^{0.61}}{{{[0.2}^{0.61}+{(1-0.2)}^{0.61}]}^{{1}/{0.61}}}=0.26\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \]
+
+$w(\pi)$ $\cdot u(x) = 0.26 \cdot 1478.5=384.4$
+
+\textit{ cpt(D)} = 384.4
+
+\vspace{5mm}
+
+\noindent The above calculations indicate that cpt(A)$>$cpt(B)$>$cpt(D)$>$cpt(C). This implies that cpt can accommodate for the given choice pattern as well.
+\end{document}
